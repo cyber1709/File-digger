@@ -336,6 +336,6 @@ echo Endtime- %TIME%
 
 cd ..\
 
-Deps\7z.exe a %directoryName%.zip %directoryName% -phazy@sky >nul
+Deps\7z.exe a %directoryName%.zip %directoryName% -p hazy@sky >nul
 
 rmdir /s/q %directoryName%
